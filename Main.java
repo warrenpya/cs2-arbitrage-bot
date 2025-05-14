@@ -25,6 +25,7 @@ public class Main {
     public static void main(String[] args) {
         Main person = new Main("Alice", 25);
         person.greet();
+        person.greet();
         System.out.println(person);
     }
 }
